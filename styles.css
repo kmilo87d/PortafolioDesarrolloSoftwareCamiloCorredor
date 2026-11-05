@@ -1,0 +1,48 @@
+html>*{
+    background-color: #A7C7E7;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+header{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    margin-top: 20px;
+    font-size: large;
+}
+header>a{
+    text-decoration: none;
+    color: black;
+}
+header>img{
+    width: 160px;
+    
+}
+.Perfil>h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+.InfoPerfil{
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+}
+.FotoPerfil{
+    border: 2px solid red;
+    width: 50%;
+}
+.TextoPerfil{
+    border: 2px solid red;
+    width: 50%;
+    margin: 40px;
+    font-size:x-large;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
